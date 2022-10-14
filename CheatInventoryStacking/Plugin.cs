@@ -36,7 +36,7 @@ namespace CheatInventoryStacking
             // Plugin startup logic
             Logger.LogInfo($"Plugin is loaded!");
 
-            stackSize = Config.Bind("General", "StackSize", 10, "The stack size of all item types in the inventory");
+            stackSize = Config.Bind("General", "StackSize", 50, "The stack size of all item types in the inventory");
             fontSize = Config.Bind("General", "FontSize", 25, "The font size for the stack amount");
 
             logger = Logger;
